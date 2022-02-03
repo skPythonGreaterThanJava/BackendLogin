@@ -9,7 +9,7 @@ app.listen(port, host, ()=>{
 });
 
 app.get('/page', (request, response)=>{
-    response.sendFile('/frontend/index.html');
+    response.sendFile('D:/Utenti/sesana.federico/Documents/BackendLogin/frontend/index.html');
 });
 
 app.post('/page', (request, response)=>{
